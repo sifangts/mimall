@@ -1,7 +1,6 @@
 <template>
                 <!-- 首页 -->
-	<div>
-		home
+	<div class="home">
         <nav-header></nav-header>
         <router-view></router-view>
 		<nav-footer></nav-footer>
@@ -18,5 +17,5 @@ import NavHeader from '../components/NavHeader.vue'
 </script>
 
 <style lang="scss" scoped>
-
+    
 </style>

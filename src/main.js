@@ -12,8 +12,8 @@ if(mock){
 	require('./mock/api')
 }
 //根据前端的跨域方式做调整  如果 /a/b :/api/a/b => /a/b将/api自动去除
-// axios.defaults.baseURL='/api';
-axios.defaults.baseURL='https://www.fastmock.site/mock/05eb26ca38575595b2476807ca2412d4/api';
+axios.defaults.baseURL='/api';
+// axios.defaults.baseURL='https://www.fastmock.site/mock/05eb26ca38575595b2476807ca2412d4/api';
 axios.defaults.timeout=8000;//请求超时时间
 //根据环境变量获取不同的请求地址
 // axios.defaults.baseURL=env.baseURL
