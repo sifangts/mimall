@@ -29,7 +29,7 @@
                                 <li class="product" v-for="(item,index) in phoneList" :key="index">
                                     <a :href="'/#/product/'+item.id" target="_blank">
                                         <div class="pro-img">
-                                            <img :src="item.mainImage" :alt="item.subtitle">
+                                            <img v-lazy="item.mainImage" :alt="item.subtitle">
                                         </div>
                                         <div class="pro-name">{{item.name}}</div>
                                         <div class="pro-price">{{item.price | currency}}</div>
@@ -48,7 +48,7 @@
                                 <li class="product">
                                     <a href="" target="_bank">
                                         <div class="pro-img">
-                                            <img src="/imgs/nav-img/nav-3-1.jpg" alt="">
+                                            <img v-lazy="'/imgs/nav-img/nav-3-1.jpg'" alt="">
                                         </div>
                                         <div class="pro-name">小米壁画电视 65英寸</div>
                                         <div class="pro-price">6999元起</div>
@@ -57,7 +57,7 @@
                                 <li class="product">
                                     <a href="" target="_bank">
                                         <div class="pro-img">
-                                            <img src="/imgs/nav-img/nav-3-2.jpg
+                                            <img v-lazy="'/imgs/nav-img/nav-3-2.jpg'
 " alt="">
                                         </div>
                                         <div class="pro-name">小米全面屏电视E55A</div>
@@ -67,7 +67,7 @@
                                 <li class="product">
                                     <a href="" target="_bank">
                                         <div class="pro-img">
-                                            <img src="/imgs/nav-img/nav-3-3.png
+                                            <img v-lazy="'/imgs/nav-img/nav-3-3.png'
 " alt="">
                                         </div>
                                         <div class="pro-name">小米电视4A 32英寸</div>
@@ -77,7 +77,7 @@
                                 <li class="product">
                                     <a href="" target="_bank">
                                         <div class="pro-img">
-                                            <img src="/imgs/nav-img/nav-3-4.jpg
+                                            <img v-lazy="'/imgs/nav-img/nav-3-4.jpg'
 " alt="">
                                         </div>
                                         <div class="pro-name">小米电视4A 55英寸</div>
@@ -87,7 +87,7 @@
                                 <li class="product">
                                     <a href="" target="_blank">
                                         <div class="pro-img">
-                                            <img src="/imgs/nav-img/nav-3-5.jpg
+                                            <img v-lazy="'/imgs/nav-img/nav-3-5.jpg'
 " alt="">
                                         </div>
                                         <div class="pro-name">小米电视4A 65英寸</div>
@@ -97,7 +97,7 @@
                                 <li class="product">
                                     <a href="" target="_bank">
                                         <div class="pro-img">
-                                            <img src="/imgs/nav-img/nav-3-6.png
+                                            <img v-lazy="'/imgs/nav-img/nav-3-6.png'
 " alt="">
                                         </div>
                                         <div class="pro-name">查看全部</div>
