@@ -131,7 +131,7 @@
 		/**取值后，后台数据有延迟，导致数据不显示 */
 		computed:{
             // username(){
-			// 	return this.$store.state.username/**读取store中的数据 */
+			// 	return this.$store.state.username /**读取store中的数据 */
 			// },
 			// cartCount(){
 			// 	return this.$store.state.cartCount/**读取store中的数据 */

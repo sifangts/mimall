@@ -7,6 +7,7 @@ export default{
         state.username=username
 	},
 	saveCartCount(state,count){
+		console.log(count)
         state.cartCount=count
 	}
 }

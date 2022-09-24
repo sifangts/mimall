@@ -134,11 +134,19 @@
               padding: 18px;
             }
           }
-          .btn{
+          .btn-box{
+            text-align: center;
+            width: 220px;
+            background-color: #FF6600;
+            margin-left: 70px;
+            .btn{
             width:100%;
             line-height:50px;
             margin-top:10px;
             font-size:16px;
+            color: #fff;
+            
+          }
           }
           .tips{
             margin-top:14px;
